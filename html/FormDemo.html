@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单测试</title>
+    <link rel="stylesheet" href="CSS/FormDemoCss.css">
+    <style>
+        div {
+            width: 20%;
+            margin: 20% auto;
+        }
+        .clsText {
+            color: rgb(128,255,128);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="http://localhost:8080/formResponse" method="get">
+            <span class="clsText">你的用户名：</span><input type="text" name="username"><br>
+            <span class="clsText">你的密码：</span><input type="text" name="password"><br>
+            <input type="submit" value="登录">
+        </form>
+    </div>
+</body>
+</html>
